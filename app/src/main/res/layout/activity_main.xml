@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hogwarts App"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/golden_yellow"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnCharacter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar Personagem Específico"
+        android:textColor="@color/golden_yellow"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnProfessors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar Professores"
+        android:textColor="@color/golden_yellow"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar Estudantes por Casa"
+        android:textColor="@color/golden_yellow"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sair"
+        android:textColor="@color/golden_yellow"
+        android:background="@drawable/button_background" />
+</LinearLayout>
