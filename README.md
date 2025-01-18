@@ -30,4 +30,3 @@ Este é um projeto Android criado para a disciplina de **Desenvolvimento Mobile 
   - Parcelize: Para passar objetos entre activities.
 
 ---
-e git@github.com:GuilhermeZaniniMoreira/MOB2.git
